@@ -1,5 +1,6 @@
 FROM debian
 MAINTAINER yzinfo yzinfo
+ENV LANG C.UTF-8
 RUN apt-get update
 RUN apt-get install -y ssh
 RUN apt-get install -y wget
