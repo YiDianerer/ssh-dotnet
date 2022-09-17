@@ -9,5 +9,5 @@ RUN dpkg -i packages-microsoft-prod.deb
 RUN rm packages-microsoft-prod.deb
 RUN apt remove -y wget
 RUN apt-get update
-RUN apt-get install -y mcr.microsoft.com/dotnet/aspnet:6.0
+RUN apt-get install -y aspnetcore-runtime-6.0
 CMD ["/bin/bash"]
