@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+FROM mcr.microsoft.com/dotnet/aspnet:3.1
 MAINTAINER yzinfo yzinfo
 ENV LANG C.UTF-8
 RUN apt-get update
